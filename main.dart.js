@@ -37901,15 +37901,15 @@ $2$minHeight$minWidth(a,b){return this.H(this,A.M("$2$minHeight$minWidth","$2$mi
 $4$color$opacity$shadows$size(a,b,c,d){return this.H(this,A.M("$4$color$opacity$shadows$size","$4$color$opacity$shadows$size",0,[a,b,c,d],["color","opacity","shadows","size"],0))},
 $1$letterSpacing(a){return this.H(this,A.M("$1$letterSpacing","$1$letterSpacing",0,[a],["letterSpacing"],0))},
 $1$5(a,b,c,d,e,f){return this.H(this,A.M("$1$5","$1$5",0,[a,b,c,d,e,f],[],1))},
+$3$replace$state(a,b,c){return this.H(this,A.M("$3$replace$state","$3$replace$state",0,[a,b,c],["replace","state"],0))},
+$3$onAction$onChange(a,b,c){return this.H(this,A.M("$3$onAction$onChange","$3$onAction$onChange",0,[a,b,c],["onAction","onChange"],0))},
+$2$color$fontSize(a,b){return this.H(this,A.M("$2$color$fontSize","$2$color$fontSize",0,[a,b],["color","fontSize"],0))},
 $2$allowEmpty(a,b){return this.H(this,A.M("$2$allowEmpty","$2$allowEmpty",0,[a,b],["allowEmpty"],0))},
 $4$boxHeightStyle$boxWidthStyle(a,b,c,d){return this.H(this,A.M("$4$boxHeightStyle$boxWidthStyle","$4$boxHeightStyle$boxWidthStyle",0,[a,b,c,d],["boxHeightStyle","boxWidthStyle"],0))},
 $4$forPainting(a,b,c,d){return this.H(this,A.M("$4$forPainting","$4$forPainting",0,[a,b,c,d],["forPainting"],0))},
 $3$dimensions$textScaleFactor(a,b,c){return this.H(this,A.M("$3$dimensions$textScaleFactor","$3$dimensions$textScaleFactor",0,[a,b,c],["dimensions","textScaleFactor"],0))},
 $3$boxHeightStyle(a,b,c){return this.H(this,A.M("$3$boxHeightStyle","$3$boxHeightStyle",0,[a,b,c],["boxHeightStyle"],0))},
 $3$includePlaceholders$includeSemanticsLabels(a,b,c){return this.H(this,A.M("$3$includePlaceholders$includeSemanticsLabels","$3$includePlaceholders$includeSemanticsLabels",0,[a,b,c],["includePlaceholders","includeSemanticsLabels"],0))},
-$3$replace$state(a,b,c){return this.H(this,A.M("$3$replace$state","$3$replace$state",0,[a,b,c],["replace","state"],0))},
-$3$onAction$onChange(a,b,c){return this.H(this,A.M("$3$onAction$onChange","$3$onAction$onChange",0,[a,b,c],["onAction","onChange"],0))},
-$2$color$fontSize(a,b){return this.H(this,A.M("$2$color$fontSize","$2$color$fontSize",0,[a,b],["color","fontSize"],0))},
 $1$1$key(a,b){return this.H(this,A.M("$1$1$key","$1$1$key",0,[a,b],["key"],1))},
 $2$isError(a,b){return this.H(this,A.M("$2$isError","$2$isError",0,[a,b],["isError"],0))},
 $2$bottom$top(a,b){return this.H(this,A.M("$2$bottom$top","$2$bottom$top",0,[a,b],["bottom","top"],0))},
@@ -40069,7 +40069,7 @@ A.zX(B.aj,r)
 s=A.zX(B.a_,r)
 return new A.wD(A.an3(),A.aAA(),q,s,!1,r)}}
 A.qT.prototype={
-P(a){return A.ast(A.Fr(A.a([B.kX,A.ar8(),B.e0,A.amU(A.Hj(new A.a1w(this),null,null,null,t.pa),1),B.e0,A.ar1()],t.D),B.be,B.t,B.v))},
+P(a){return A.ast(A.Fr(A.a([B.kX,A.ar8(),B.e0,A.amU(A.Hj(new A.a1w(this),null,null,null,t.pa),1)],t.D),B.be,B.t,B.v))},
 PH(b2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8=null,a9=A.cq(new A.a1x(b2),b2.db),b0=b2.L.ch,b1=t.D
 b0=A.bT(A.a([a9,B.E,A.aP(b0,a8,a8,a8,a8,a8,a8)],b1),B.w,B.t,B.v)
 a9=A.cq(new A.a1y(b2),b2.dx)
@@ -40154,38 +40154,39 @@ a6=A.cq(new A.a1R(b2),b2.T)
 a7=b2.L.x2
 return A.Fr(A.a([b0,a9,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,A.bT(A.a([a6,B.E,A.aP(a7,a8,a8,a8,a8,a8,a8)],b1),B.w,B.t,B.v)],b1),B.w,B.t,B.v)}}
 A.a1w.prototype={
-$1(a0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=null,b=a0.L,a=b.b
-a=A.nG(A.aP(a,c,c,c,c,c,c),c,c)
-s=b.J
-s=A.aP(s,c,c,c,B.Pd,c,c)
-r=a0.CW
+$1(a1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b=null,a=a1.L,a0=a.b
+a0=A.nG(A.aP(a0,b,b,b,b,b,b),b,b)
+s=a.J
+s=A.aP(s,b,b,b,B.Pd,b,b)
+r=a1.CW
 q=this.a
-p=b.d
-o=A.lR(B.bk,q.c,r,p,c,b.c)
-n=A.lR(B.bk,q.d,r,p,c,b.e)
-m=A.lR(B.bk,q.e,r,p,5,b.ax)
-l=A.lR(B.bk,q.f,r,p,6,b.f)
-k=A.lR(B.bk,q.r,r,p,5,b.r)
-j=A.lR(B.bk,q.w,r,p,4,b.w)
-i=A.lR(B.bk,q.x,r,p,4,b.x)
-r=A.lR(B.bk,q.y,r,p,2,b.y)
-p=b.ay
-p=A.aP(p,c,c,c,c,c,c)
-h=b.Q
-h=A.aP(h,c,c,c,c,c,c)
-g=a0.cy
+p=a.d
+o=A.lR(B.bk,q.c,r,p,b,a.c)
+n=A.lR(B.bk,q.d,r,p,b,a.e)
+m=A.lR(B.bk,q.e,r,p,5,a.ax)
+l=A.lR(B.bk,q.f,r,p,6,a.f)
+k=A.lR(B.bk,q.r,r,p,5,a.r)
+j=A.lR(B.bk,q.w,r,p,4,a.w)
+i=A.lR(B.bk,q.x,r,p,4,a.x)
+r=A.lR(B.bk,q.y,r,p,2,a.y)
+p=a.ay
+p=A.aP(p,b,b,b,b,b,b)
+h=a.Q
+h=A.aP(h,b,b,b,b,b,b)
+g=a1.cy
 f=t.y
-h=A.jH(A.asc(g,new A.a1t(a0),h,!1,f),c,110)
-b=b.z
+h=A.jH(A.asc(g,new A.a1t(a1),h,!1,f),b,110)
+a=a.z
 e=t.D
-f=A.bT(A.a([h,A.jH(A.asc(g,new A.a1u(a0),A.aP(b,c,c,c,c,c,c),!0,f),c,120)],e),B.w,B.t,B.cx)
-b=a0.L.as
-b=A.aP(b,c,c,c,c,c,c)
-h=q.PH(a0)
-g=a0.L
-d=A.lR(B.bk,q.z,a0.CW,c,c,g.at)
+f=A.bT(A.a([h,A.jH(A.asc(g,new A.a1u(a1),A.aP(a,b,b,b,b,b,b),!0,f),b,120)],e),B.w,B.t,B.cx)
+a=a1.L.as
+a=A.aP(a,b,b,b,b,b,b)
+h=q.PH(a1)
+g=a1.L
+d=A.lR(B.bk,q.z,a1.CW,b,b,g.at)
+c=A.ar1()
 g=g.a
-return A.aru(A.a([a,new A.cR(B.Ee,s,c),B.wu,o,n,m,l,k,j,i,r,new A.cR(B.aF,p,c),f,new A.cR(B.aF,b,c),h,d,new A.cR(B.aF,new A.Gv(new A.a1v(q,a0),c,c,c,c,B.K,c,!1,c,A.aP(g,c,c,c,c,c,c),c),c)],e))},
+return A.aru(A.a([a0,new A.cR(B.Ee,s,b),B.wu,o,n,m,l,k,j,i,r,new A.cR(B.aF,p,b),f,new A.cR(B.aF,a,b),h,d,B.e0,c,new A.cR(B.aF,new A.Gv(new A.a1v(q,a1),b,b,b,b,B.K,b,!1,b,A.aP(g,b,b,b,b,b,b),b),b)],e))},
 $S:473}
 A.a1t.prototype={
 $1(a){var s=this.a
@@ -40335,7 +40336,7 @@ $1(a){var s=this.a,r=a==null?A.bG(a):a,q=s.L.x2
 s.a6z(r,q)},
 $S:4}
 A.r2.prototype={
-P(a){return A.ast(A.Fr(A.a([B.kX,A.ar8(),B.e0,A.amU(A.Hj(new A.a2D(),null,null,null,t.pa),1),B.e0,A.ar1()],t.D),B.be,B.t,B.v))}}
+P(a){return A.ast(A.Fr(A.a([B.kX,A.ar8(),B.e0,A.amU(A.Hj(new A.a2D(),null,null,null,t.pa),1)],t.D),B.be,B.t,B.v))}}
 A.a2D.prototype={
 $1(b2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2=null,a3="asset/img/profil.jpg",a4="Elgiz C\u0259brayilov",a5="Polad Boru Zavodu",a6="S\u018fT\u018fM",a7="\u015e\xf6b\u0259 m\xfcdiri",a8="Eelgiz.cebrayilov@azertexnolayn.com",a9="(+994) 70 252 12 54",b0=b2.L,b1=b0.xr
 b1=A.nG(A.aP(b1,a2,a2,a2,B.f9,a2,a2),a2,a2)
@@ -40401,7 +40402,7 @@ a=k
 a0=i
 a1=g
 c=A.m7(a8,a4,a3,a6,a5,a9,c,b,a,a0,a1,b0,a7)
-return new A.cR(B.aF,A.aru(A.a([b1,s,r,q,p,n,l,j,h,f,e,d,c,A.m7(a8,a4,a3,a6,a5,a9,o,m,k,i,g,b0,a7)],t.D)),a2)},
+return new A.cR(B.aF,A.aru(A.a([b1,s,r,q,p,n,l,j,h,f,e,d,c,A.m7(a8,a4,a3,a6,a5,a9,o,m,k,i,g,b0,a7),B.e0,A.ar1()],t.D)),a2)},
 $S:182}
 A.FI.prototype={
 P(a){var s,r,q,p,o=this,n=null,m=o.c
