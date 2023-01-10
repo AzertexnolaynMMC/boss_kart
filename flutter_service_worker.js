@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "a2b06f8fcf0390efc6b297a44860ad4d",
+  "assets/AssetManifest.json": "18aba176fdee8d29881c0bcdcffe677e",
 "assets/assets/icons/energy.svg": "017559c2b5ab85cc6b475ec858e76cbd",
 "assets/assets/icons/hot.svg": "a9c024f42b9138c969af1c7b239249f8",
 "assets/assets/icons/lifting.svg": "6ebe50547293215b9c8d35c78aaafe7c",
@@ -11,7 +11,11 @@ const RESOURCES = {
 "assets/assets/icons/ppe.svg": "769135c89ae970993511fe0ff3790bd0",
 "assets/assets/icons/report.svg": "6a13a9e77eea37e8a40a586e5bcbb65d",
 "assets/assets/icons/transport.svg": "23f48b82515165810dba48ec206b09f6",
+"assets/assets/img/haci.jpeg": "891946b8bcb0eaee75dd13ff14ba442d",
+"assets/assets/img/miri.jpg": "e48dbb21d9145f68a9dfa3a913da4193",
+"assets/assets/img/nebi.jpg": "07781a7f54cb6e14af1b5f53387cacba",
 "assets/assets/img/profil.jpg": "1193a7b28d429bfd53e756fadfc09a6c",
+"assets/assets/img/uzeyir.jpg": "cad198b7f144e47b9a2b6d60c678bd7a",
 "assets/assets/logo/logo.svg": "fb004cb32f8de05eb0e8aa5c9b18bf0e",
 "assets/assets/protofil/bakiagseher.jpg": "61d71347820acfb62deea92f94d8ca33",
 "assets/assets/protofil/bakiiceriseher.jpg": "bd27fd49d48d1214f6e270988e53c121",
@@ -37,9 +41,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "4088f2e1a05104e4fdeefdb914351980",
-"/": "4088f2e1a05104e4fdeefdb914351980",
-"main.dart.js": "6cca08f783b692d30ec34d2f418f6c20",
+"index.html": "db879418f83b6f8042811ac1e8a39d95",
+"/": "db879418f83b6f8042811ac1e8a39d95",
+"main.dart.js": "6b445fd9eea45a6de36520eb81efac55",
 "manifest.json": "8e3f588956843366c2adb993b0bced68",
 "splash/splash.js": "123c400b58bea74c1305ca3ac966748d",
 "splash/style.css": "1404a5cdf67c618f89467983c828bd26",
